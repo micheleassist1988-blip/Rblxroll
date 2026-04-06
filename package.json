@@ -1,0 +1,13 @@
+{
+  "name": "rblxroll",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "install:backend": "npm install --prefix rblxroll-backend-main",
+    "install:frontend": "npm install --prefix rblxroll-frontend-main",
+    "build": "npm run install:backend && npm run install:frontend && npm run build --prefix rblxroll-frontend-main",
+    "start": "node rblxroll-backend-main/index.js"
+  }
+}
