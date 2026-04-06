@@ -1,0 +1,12 @@
+node_modules/
+*.log
+*.tar.gz
+rblxroll-project.zip
+.env.local
+backend_index.gz
+backend_package.json.gz
+pkg_f.gz
+pkg.gz
+rblxroll-backend-main.zip
+rblxroll-frontend-main.zip
+/tmp
