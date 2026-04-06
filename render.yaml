@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: rblxroll
+    env: node
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URI
+        sync: false
+      - key: TOKEN_SECRET
+        generateValue: true
